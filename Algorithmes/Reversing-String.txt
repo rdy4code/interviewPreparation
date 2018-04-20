@@ -1,0 +1,53 @@
+### String Reversing
+
+What a big(O) ??
+
+//Logic
+// Convert the string to an array
+// Call "reverse" method
+// "join" back into a string
+// return the result
+
+
+// Solution 1;
+function reverse(str){
+  conts arrStr = str.split(""); // passing an empty string
+  arrStr.reverse();
+  return arrStr.join();
+} 
+
+// Solution 1.1;
+function reverse(str){
+  return str.split("")
+    .reverse()
+    .join("");
+}
+
+//##### Solution 2
+
+//Logic
+// Create an empty string called "reversed"
+// for each character in the string
+// Take the character and add into the start of "reversed"
+// return the result
+
+
+
+
+
+
+
+
+##### Array Reversing Refference
+
+// Initialize
+let str = ["one" , "two", "three"];
+
+// Code
+function reverseString(str) {
+  str.reverse();
+};
+console.log(str);
+
+// Call function
+reverseString(str);
