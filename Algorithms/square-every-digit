@@ -1,0 +1,19 @@
+function squareDigits(num){
+
+  var b = num + "";
+  var c = b.split("");
+  
+  var emptyArr =[];
+  
+  for(var i = 0; i < c.length; i++) {
+    emptyArr.push(c[i] * c[i]);
+  }
+  var output = emptyArr.join("");
+// console.log(typeof output);
+  var h = parseInt(output, 10);
+// console.log(typeof h);
+    return h;
+  
+}
+
+squareDigits(9119), 811181);
