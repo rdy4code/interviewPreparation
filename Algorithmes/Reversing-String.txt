@@ -8,7 +8,7 @@ What a big(O) ??
 // "join" back into a string
 // return the result
 
-
+---
 // Solution 1;
 function reverse(str){
   conts arrStr = str.split(""); // passing an empty string
@@ -16,6 +16,7 @@ function reverse(str){
   return arrStr.join();
 } 
 
+---
 // Solution 1.1;
 function reverse(str){
   return str.split("")
@@ -30,6 +31,28 @@ function reverse(str){
 // for each character in the string
 // Take the character and add into the start of "reversed"
 // return the result
+
+---
+function reversedString(str) {
+  let reversed = "";
+
+  for (let charachter of str) {
+    reversed = charachter + reversed;
+  }
+  return reversed;
+}
+
+//##### Solution 3
+
+//Logic
+// Create an array with str.split('')
+// reduce helper
+// return the result
+
+---
+function reversedString(str) {
+   return str.split("").reduce((rev, char) => return char + rev, "");
+}
 
 
 
