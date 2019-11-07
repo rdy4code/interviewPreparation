@@ -1,0 +1,24 @@
+{
+  "name": "interviewPreparation",
+  "version": "1.0.0",
+  "description": "Preparation theory for Top IT Companies Interview.\r Front-End Development path.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest ./reversing/reverseString.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdy4code/interviewPreparation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdy4code/interviewPreparation/issues"
+  },
+  "homepage": "https://github.com/rdy4code/interviewPreparation#readme"
+}
