@@ -6,25 +6,24 @@ postcondition: return reversed string
 
 const reverseString = {
     reverseString: (testString) => {
+        // Shortened version
         // let arr = testString.split("");
         // arr.reverse();
         // return arr.join("");
 
-        // Shortened version
     //     return testString
     //          .split("")
     //         .reverse()
     //         .join("");
 
-    let reversed = "";
-
-    for (let character of testString){
-        reversed = character + reversed;
-
-    }
-    return reversed;
-
-    }
+        //without using reverse()
+    // let reversed = "";
+    // for (let character of testString){
+    //     reversed = character + reversed;
+    // }
+    // return reversed;
+    // }
+    testString.split("").reduce((reversed, charachter) => character + reversed,"");
 }
 
 module.exports = reverseString;
