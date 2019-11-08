@@ -10,7 +10,20 @@ const reverseString = {
         // arr.reverse();
         // return arr.join("");
 
-        return testString.split("").reverse().join("");
+        // Shortened version
+    //     return testString
+    //          .split("")
+    //         .reverse()
+    //         .join("");
+
+    let reversed = "";
+
+    for (let character of testString){
+        reversed = character + reversed;
+
+    }
+    return reversed;
+
     }
 }
 
