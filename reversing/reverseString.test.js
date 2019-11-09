@@ -1,7 +1,7 @@
 const reverseString = require("./reversString");
 
 test("string must be reversed", () => {
-    expect(reverseString.reverseString("reversedText")).toBe("txeTdesrever");
+    expect(reverseString.reverseString("1221")).toBe("1221");
 }   
 
 );

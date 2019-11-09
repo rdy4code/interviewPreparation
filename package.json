@@ -8,7 +8,7 @@
     "jest": "^24.9.0"
   },
   "scripts": {
-    "test": "jest ./palindrome/palindrome.test.js"
+    "test": "jest ./reversing/reverseString.test.js"
   },
   "repository": {
     "type": "git",
