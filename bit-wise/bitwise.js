@@ -20,4 +20,18 @@ console.log(1 & 2); // --> 0
 // 00000001 - Execute
 // 00000111  - All actions
 
+const readPermission = 4;
+const writePermission = 2;
+const executePermission = 1;
+
+let defaultPermission = 0;
+defaultPermission = readPermisiion | writePermission | executePermission;
+
+let message = (defaultPermission & readPermission) ? "yes" : "no";
+console.log(message);
+
+// with bitwise OR we cab add permission and with AND we can check
+
+
+
 
