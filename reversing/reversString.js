@@ -11,10 +11,10 @@ const reverseString = {
         // arr.reverse();
         // return arr.join("");
 
-    //     return testString
-    //          .split("")
-    //         .reverse()
-    //         .join("");
+        return testString
+             .split("")
+            .reverse()
+            .join("")
 
         //without using reverse()
     // let reversed = "";
@@ -23,7 +23,8 @@ const reverseString = {
     // }
     // return reversed;
     // }
-    testString.split("").reduce((reversed, charachter) => character + reversed,"");
+    // testString.split("").reduce((reversed, charachter) => character + reversed,"");
+}
 }
 
 module.exports = reverseString;
